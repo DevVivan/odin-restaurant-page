@@ -37,4 +37,13 @@ export function addMenuPageToDOM() {
     homeBackground.src = homeBackgroundImage;
     homeBackground.classList.add('background-image')
     content.appendChild(homeBackground)
+
+    const menuContainer = document.createElement('div')
+    menuContainer.classList.add('menu-container')
+    content.appendChild(menuContainer);
+
+    const menuHeader = document.createElement('h1')
+    menuHeader.classList.add('menu-header')
+    menuHeader.innerHTML = 'Menu'
+
 }
