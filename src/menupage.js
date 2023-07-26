@@ -44,6 +44,9 @@ export function addMenuPageToDOM() {
 
     const menuHeader = document.createElement('h1')
     menuHeader.classList.add('menu-header')
-    menuHeader.innerHTML = 'Menu'
+    menuHeader.innerHTML = 'The Menu'
+    menuContainer.appendChild(menuHeader)
 
+    const hr = document.createElement('hr');
+    menuContainer.appendChild(hr)
 }
