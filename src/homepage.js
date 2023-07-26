@@ -1,15 +1,6 @@
 import './assets/styles/style.css'
 import homeBackgroundImage from './assets/img/home-background.png';
 
-{/* <div class="navbar">
-<h2 class="navbar-logo">Pizza Haven</h2>
-<ul>
-    <li class="navbar-item">Home</li>
-    <li class="navbar-item">Menu</li>
-    <li class="navbar-item">Contact</li>
-</ul>
-</div> */}
-
 export function addHomepageToDOM() {
     document.body.style.backgroundColor = 'black'
     
