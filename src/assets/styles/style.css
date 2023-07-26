@@ -24,7 +24,7 @@
 	flex-direction: column;
 	gap: 4vh;
 	z-index: 2;
-	position: absolute;
+	position: relative;
 	top: 32%;
 	left: 10%;
 }
