@@ -3,3 +3,5 @@ import './assets/styles/style.css'
 
 // const Image = new Image();
 // Image.src = ExampleImage;
+
+console.log('hey')
