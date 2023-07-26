@@ -1,7 +1,9 @@
 import './assets/styles/style.css'
-// import ExampleImage from './assets/img/exampleimage.png';
+import homeBackgroundImage from './assets/img/home-background.png';
 
-// const Image = new Image();
-// Image.src = ExampleImage;
+const content = document.querySelector('#content');
 
-console.log('hey')
+const homeBackground = new Image()
+homeBackground.src = homeBackgroundImage;
+homeBackground.classList.add('background-image')
+content.appendChild(homeBackground)
