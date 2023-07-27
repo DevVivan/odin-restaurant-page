@@ -8,7 +8,7 @@
     "build": "webpack",
     "start": "webpack-dev-server --open 'google chrome'",
     "dev": "webpack serve",
-    "live": "git subtree push --prefix dist origin gh-pages"
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
